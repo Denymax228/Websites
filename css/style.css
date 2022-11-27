@@ -60,12 +60,20 @@ body{
     padding-top: 5px;
 }
 .google{
-    height: 70%;
+    height: 55%;
     width: 3%;
     float: left;
 }
 .rus{
-    height: 70%;
+    height: 55%;
+    width: 2%;
+}
+.bel{
+    height: 55%;
+    width: 3%;
+}
+.eye{
+    height: 55%;
     width: 3%;
 }
 .bottons{
