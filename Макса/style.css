@@ -31,26 +31,39 @@ body{
 }
 
 .head{
-    margin: 40px;
+    margin: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 95%;
     height: auto;
 }
 .logo{
-    height: 50%;
-    width: 15%;
+    height: 40%;
+    width: 10%;
     float:left;
 }
 .logo1{
-    height: 50%;
-    width: 15%;
+    height: 40%;
+    width: 10%;
     float: right;
-
 }
-
+.wraper{
+    width: 100%;
+    height: auto;
+    color:white;
+    font-family: 'Calibri';
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+    padding-top: 5px;
+}
+.google{
+    height: 90%;
+    width: 3%;
+    float: left;
+}
 .bottons{
     display: flex;
     flex-direction: row;
