@@ -1,17 +1,9 @@
 body{
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     width: 100%;
     height: 100%;
 }
 .banner{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
     width: 100%;
     height: 100vh;
     background-image: url(../img/ch3.jpg);
@@ -19,11 +11,8 @@ body{
     background-size: cover;  
 }
 .blur{
+    padding: 50px;
     FONT-WEIGHT: 100;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     width: 100%;
     height: 100%;
     backdrop-filter: blur(15px);
@@ -50,7 +39,10 @@ body{
     float: right;
 }
 .wraper{
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 25%;
     height: auto;
     color: #fff;;
     font-family: 'Calibri';
@@ -58,6 +50,9 @@ body{
     font-weight: 100;
     text-align: left;
     padding-top: 5px;
+}
+.wraper-txt{
+
 }
 .google{
     height: 70%;
