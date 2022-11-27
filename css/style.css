@@ -59,20 +59,14 @@ body{
     text-align: left;
     padding-top: 5px;
 }
-.russkiy{
-    width: 100%;
-    height: auto;
-}
 .google{
-    height: 90%;
+    height: 70%;
     width: 3%;
     float: left;
 }
 .rus{
-    height: 90%;
+    height: 70%;
     width: 3%;
-    float: right;
-
 }
 .bottons{
     display: flex;
