@@ -29,7 +29,6 @@ body{
     backdrop-filter: blur(15px);
     background-color: rgba(150, 227, 232, 0.055)
 }
-
 .head{
     margin: 0px;
     display: flex;
@@ -49,7 +48,7 @@ body{
     width: 15%;
     float: right;
 }
-.wraper{
+.top_bar{
     width: 100%;
     height: auto;
     color: #fff;;
@@ -84,7 +83,6 @@ body{
     color: #e9895f;
     font-size: 25px;
 }
-
 .style2{
     color:white;
     font-family: 'Calibri';
@@ -94,15 +92,6 @@ body{
     padding-top: 20px;
     padding: 100px;
 }
-
-.style3{
-    width: 90%;
-    padding-top: 130px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .style4{
     color:white;
     font-family: 'Calibri';
@@ -111,41 +100,21 @@ body{
     width: 95%;
     height: auto;
 }
-
-
-.style-for-bottons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 70%;
-    text-align: left;
-    padding-top: 70px;
+.wraper{
+    height: 90%;
+    width: 100%;
+    background-color:#515151;
 }
-
-.botton-style{
-    color:white;
-    font-family: 'Calibri';
-    font-size: 20px;
-    font-weight: 100px;
-    background: linear-gradient(45deg, #ec3245, #e9895f);
-    border-radius: 50px;
-    padding: 8px 25px;
+* {
+    padding: 0;
+    margin: 0;
 }
-
-.button-style2{
+.down{
     color:white;
     font-family: 'Calibri';
     font-size: 20px;
     font-weight: 100;
-    padding-right: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;
 }
-.right-side{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding-top: 50px;
-    padding-right: 50px;
-    width: 50%;
-}
-
