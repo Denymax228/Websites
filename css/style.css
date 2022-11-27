@@ -61,7 +61,7 @@ body{
 }
 .google{
     height: 55%;
-    width: 3%;
+    width: 2%;
     float: left;
 }
 .rus{
@@ -70,11 +70,11 @@ body{
 }
 .bel{
     height: 55%;
-    width: 3%;
+    width: 2%;
 }
 .eye{
     height: 55%;
-    width: 3%;
+    width: 2%;
 }
 .bottons{
     display: flex;
@@ -92,7 +92,7 @@ body{
     font-weight: 100;
     width: 95%;
     padding-top: 20px;
-    text-align: center;
+    padding: 100px;
 }
 
 .style3{
@@ -108,8 +108,8 @@ body{
     font-family: 'Calibri';
     font-size: 20px;
     font-weight: 100;
-    width: 70%;
-    text-align: left;
+    width: 95%;
+    height: auto;
 }
 
 
