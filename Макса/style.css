@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    background-image: url(ch3.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;  
+}
+.blur{
+    FONT-WEIGHT: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(15px);
+    background-color: rgba(150, 227, 232, 0.055)
+}
+
+.head{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+.logo{
+    height: 50%;
+    width: 15%;
+    float:left;
+}
+.logo1{
+    height: 50%;
+    width: 15%;
+    float: right;
+
+}
+
+.bottons{
+    display: flex;
+    flex-direction: row;
+}
+.style:hover{
+    color: #e9895f;
+    font-size: 25px;
+}
+
+.style2{
+    color:white;
+    font-family: 'Calibri';
+    font-size: 50px;
+    font-weight: 100;
+    width: 90%;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.style3{
+    width: 90%;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.style4{
+    color:white;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+    width: 70%;
+    text-align: left;
+}
+
+
+.style-for-bottons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    text-align: left;
+    padding-top: 70px;
+}
+
+.botton-style{
+    color:white;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100px;
+    background: linear-gradient(45deg, #ec3245, #e9895f);
+    border-radius: 50px;
+    padding: 8px 25px;
+}
+
+.button-style2{
+    color:white;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+    padding-right: 50px;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-right: 50px;
+    width: 50%;
+}
+
