@@ -49,14 +49,47 @@ body{
     float: right;
 }
 .top_bar{
-    width: 100%;
+    width: 98%;
     height: auto;
+    padding-top: 5px;
+}
+.leng{
     color: #fff;;
     font-family: 'Calibri';
     font-size: 20px;
     font-weight: 100;
-    text-align: left;
-    padding-top: 5px;
+}
+.leng_r{
+    color: #fff;;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+}
+.leng_bel{
+    color: #fff;;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+}
+.version{
+    color: #fff;;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+}
+.map{
+    color: #fff;;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+    float: right;
+}
+.data{
+    color: #fff;;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+    padding-left:50px ;
 }
 .google{
     height: 55%;
@@ -66,14 +99,17 @@ body{
 .rus{
     height: 55%;
     width: 2%;
+    padding-left: 10px;
 }
 .bel{
     height: 55%;
     width: 2%;
+    padding-left: 10px;
 }
 .eye{
     height: 55%;
     width: 2%;
+    padding-left: 10px;
 }
 .bottons{
     display: flex;
@@ -89,13 +125,12 @@ body{
     font-size: 50px;
     font-weight: 100;
     width: 95%;
-    padding-top: 20px;
     padding: 100px;
 }
 .style4{
     color:white;
     font-family: 'Calibri';
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 100;
     width: 95%;
     height: auto;
@@ -105,16 +140,14 @@ body{
     width: 100%;
     background-color:#515151;
 }
-* {
-    padding: 0;
-    margin: 0;
-}
 .down{
+    width: 60%;
+    height: auto;
+    text-align: center;
+}
+.ych{
     color:white;
     font-family: 'Colibri';
     font-size: 26px;
     font-weight: 300;
-    width: 60%;
-    height: auto;
-    text-align: center;
 }
