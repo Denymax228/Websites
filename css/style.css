@@ -111,10 +111,10 @@ body{
 }
 .down{
     color:white;
-    font-family: 'Calibri';
-    font-size: 20px;
-    font-weight: 100;
-    width: 100%;
+    font-family: 'Colibri';
+    font-size: 26px;
+    font-weight: 300;
+    width: 60%;
     height: auto;
     text-align: center;
 }
