@@ -53,25 +53,7 @@ body{
     height: auto;
     padding-top: 5px;
 }
-.leng{
-    color: #fff;;
-    font-family: 'Calibri';
-    font-size: 20px;
-    font-weight: 100;
-}
-.leng_r{
-    color: #fff;;
-    font-family: 'Calibri';
-    font-size: 20px;
-    font-weight: 100;
-}
-.leng_bel{
-    color: #fff;;
-    font-family: 'Calibri';
-    font-size: 20px;
-    font-weight: 100;
-}
-.version{
+.Text_mini{
     color: #fff;;
     font-family: 'Calibri';
     font-size: 20px;
@@ -92,25 +74,9 @@ body{
     font-weight: 100;
     padding-left:50px ;
 }
-.google{
+.mini_logo{
     height: 55%;
     width: 2%;
-    float: left;
-}
-.rus{
-    height: 55%;
-    width: 2%;
-    padding-left: 10px;
-}
-.bel{
-    height: 55%;
-    width: 2%;
-    padding-left: 10px;
-}
-.eye{
-    height: 55%;
-    width: 2%;
-    padding-left: 10px;
 }
 .bottons{
     display: flex;
@@ -131,7 +97,7 @@ body{
 .style4{
     color:white;
     font-family: 'Calibri';
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 100;
     width: 95%;
     height: auto;
