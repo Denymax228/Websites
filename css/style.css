@@ -59,6 +59,7 @@ body{
     font-size: 20px;
     font-weight: 100;
     transition: all 0.5s;
+    text-decoration:none;
 }
 .Text_mini:hover{
     color: #e9895f;
@@ -72,6 +73,7 @@ body{
     float: right;
     padding-right: 10px;
     transition: all 0.5s;
+    text-decoration:none;
 }
 .map:hover{
     color: #e9895f;
@@ -88,6 +90,7 @@ body{
     font-weight: 100;
     padding-left:50px ;
     transition: all 0.5s;
+    text-decoration:none;
 }
 .mini_logo{
     height: 55%;
