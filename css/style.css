@@ -58,6 +58,11 @@ body{
     font-family: 'Calibri';
     font-size: 20px;
     font-weight: 100;
+    transition: all 0.5s;
+}
+.Text_mini:hover{
+    color: #e9895f;
+    font-size: 23px;
 }
 .map{
     color: #fff;;
@@ -66,6 +71,15 @@ body{
     font-weight: 100;
     float: right;
     padding-right: 10px;
+    transition: all 0.5s;
+}
+.map:hover{
+    color: #e9895f;
+    font-size: 23px;
+}
+.data:hover{
+    color: #e9895f;
+    font-size: 23px;
 }
 .data{
     color: #fff;;
@@ -73,6 +87,7 @@ body{
     font-size: 20px;
     font-weight: 100;
     padding-left:50px ;
+    transition: all 0.5s;
 }
 .mini_logo{
     height: 55%;
@@ -81,10 +96,6 @@ body{
 .bottons{
     display: flex;
     flex-direction: row;
-}
-.style:hover{
-    color: #e9895f;
-    font-size: 25px;
 }
 .style2{
     color:white;
