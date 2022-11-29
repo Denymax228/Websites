@@ -132,3 +132,31 @@ body{
     font-size: 30px;
     font-weight: 300;
 }
+
+/* Nikita */
+
+footer{
+    width: 100%;
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: 0 10%;
+    background: #4af7be;
+    box-shadow: 0 5px 10px #ccc;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-right: 100px;
+}
+
+#copyright {
+    font-size: 16px;
+}
