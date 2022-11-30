@@ -56,6 +56,7 @@ body{
     height: 5%;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .Text_mini{
     color: rgb(0, 0, 0);;
@@ -100,7 +101,7 @@ body{
     font-size: 23px;
 }
 .data{
-    color: #fff;;
+    color: #000;;
     font-family: 'Calibri';
     font-size: 20px;
     font-weight: 100;
