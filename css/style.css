@@ -138,8 +138,11 @@ body{
     font-size: 25px;
 }
 footer{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     bottom: 0;
+    background: #4af7be;
 }
 .foot {
     display: flex;
@@ -149,7 +152,6 @@ footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 94,5%;
     padding: 25px;
-    background: #4af7be;
 }
 .contact {
     display: flex;
@@ -160,4 +162,18 @@ footer{
 
 #copyright {
     font-size: 16px;
+}
+
+.card_foto img {
+    height: 50px;
+}
+
+.card_foto {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.card_foto div {
+    margin: 10px;
 }
