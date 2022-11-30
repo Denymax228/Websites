@@ -54,6 +54,8 @@ body{
     justify-content: flex-start;
     width: 100%;
     height: 5%;
+    position: sticky;
+    top: 0;
 }
 .Text_mini{
     color: #fff;;
