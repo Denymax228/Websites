@@ -60,7 +60,7 @@ body{
     font-family: 'Calibri';
     font-size: 20px;
     font-weight: 100;
-    transition: all 0.7s;
+    transition: all 0.8s;
     text-decoration:none;
 }
 .Text_eye{
@@ -68,7 +68,7 @@ body{
     font-family: 'Calibri';
     font-size: 20px;
     font-weight: 100;
-    transition: all 0.8s;
+    transition: all 1s;
     text-decoration:none;
 }
 .Text_eye:hover{
