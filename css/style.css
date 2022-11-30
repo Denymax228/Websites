@@ -25,7 +25,6 @@ body{
     justify-content: flex-start;
     align-items: center;
     padding: 0 50px;
-    width: 100%;
     height: 100%;
     backdrop-filter: blur(15px);
     background-color: rgba(150, 227, 232, 0.055)
@@ -40,13 +39,13 @@ body{
     height: auto;
 }
 .logo{
-    height: 50%;
-    width: 15%;
+    height: 60%;
+    width: 11%;
     float:left;
 }
 .logo1{
-    height: 40%;
-    width: 15%;
+    height: 60%;
+    width: 13%;
     float: right;
 }
 .top_bar{
@@ -73,10 +72,10 @@ body{
     font-family: 'Calibri';
     font-size: 20px;
     font-weight: 100;
-    float: right;
     padding-right: 10px;
     transition: all 0.5s;
     text-decoration:none;
+    padding-left: 55%;
 }
 .map:hover{
     color: #e9895f;
@@ -104,46 +103,26 @@ body{
     flex-direction: row;
 }
 .style2{
-    color:white;
-    font-family: 'Calibri';
     font-size: 50px;
-    font-weight: 100;
+    font-weight: 150;
     width: 95%;
+    text-shadow: black 1px 1px 2px;
 }
 .style4{
-    color:white;
-    font-family: 'Calibri';
-    font-size: 25px;
-    font-weight: 100;
     width: 95%;
     height: auto;
 }
-.wraper{
-    height: 90%;
-    width: 100%;
-    background-color:#515151;
-}
-.down{
-    width: 60%;
-    height: auto;
-    text-align: center;
-}
-.ych{
-    color:white;
-    font-family: 'Colibri';
-    font-size: 30px;
-    font-weight: 300;
-}
-
 /* Nikita */
-
 .style_txt {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    color:white;
+    font-family: 'Calibri';
+    font-weight: 100;
+    font-size: 25px;
 }
-
 footer{
     width: 100%;
 }
