@@ -16,7 +16,7 @@ body{
     height: 100vh;
     background-image: url(../img/ch3.jpg);
     background-repeat: no-repeat; 
-    background-size: cover;  
+    background-size: cover;
 }
 .blur{
     FONT-WEIGHT: 100;
@@ -49,12 +49,14 @@ body{
     float: right;
 }
 .top_bar{
+    background-color:#ccc;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
     height: 5%;
     position: sticky;
+    z-index:1 ;
     top: 0;
 }
 .Text_mini{
