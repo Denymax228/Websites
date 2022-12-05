@@ -182,8 +182,8 @@ footer{
 
 .card_foto img {
     height: 50px;
+    padding-left: 5px;
 }
-
 .card_foto {
     display: flex;
     flex-direction: row;
