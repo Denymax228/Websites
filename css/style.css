@@ -52,14 +52,24 @@ body{
 .top_bar{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    /*justify-content: flex-start;
+    align-items: center;*/
     margin: 0 10%;
+    padding: 0 1%;
     height: 5%;
     position: sticky;
     top: 0;
     z-index: 1;
     box-shadow: 0px 5px 10px #ccc;
     background-color: #4af7be;
+}
+
+.lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
 }
 .Text_mini{
     color: rgb(0, 0, 0);;
@@ -68,6 +78,8 @@ body{
     font-weight: 100;
     transition: all 0.8s;
     text-decoration:none;
+    text-align: center;
+    margin-right: 10px;
 }
 .Text_eye{
     color: rgb(0, 0, 0);;
@@ -113,8 +125,8 @@ body{
     padding-left: 50px;
 }
 .mini_logo{
-    height: 50%;
-    width: 2%;
+    width: 5%;
+    height: 60%;
 }
 .bottons{
     display: flex;
@@ -176,8 +188,17 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content:center;
+    width: 100%;
 }
 
 .card_foto div {
     margin: 10px;
+}
+
+.lf_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
 }
