@@ -223,7 +223,7 @@ footer{
 }
 
 .level_0 li:hover {
-    background-color: darkcyan;
+    background-color: rgb(92, 234, 234);
 }
 
 .level_0 li:checked {
@@ -232,5 +232,6 @@ footer{
 a {
     text-decoration: none;
     color: azure;
+    font-weight: 150;
 }
 
