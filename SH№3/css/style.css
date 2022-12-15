@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.layout {
+    display: block;
+    margin: 0 10%;
+    height: auto;
+    box-shadow: 0 5px 10px #ccc;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/ch3.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+}
+.blur{
+    FONT-WEIGHT: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+    backdrop-filter: blur(15px);
+    background-color: rgba(150, 227, 232, 0.055)
+}
+.head{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: auto;
+}
+.logo{
+    height: 60%;
+    width: 11%;
+    float:left;
+}
+.logo1{
+    height: 60%;
+    width: 13%;
+    float: right;
+}
+.top_bar{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+    padding: 0 1%;
+    height: 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 5px 10px #ccc;
+    background-color: #4af7be;
+}
+
+.lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+.Text_mini{
+    color: rgb(0, 0, 0);;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+    transition: all 0.8s;
+    text-decoration:none;
+    text-align: center;
+    margin-right: 10px;
+}
+.Text_eye{
+    color: rgb(0, 0, 0);;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+    transition: all 1s;
+    text-decoration:none;
+}
+.Text_eye:hover{
+    color: #e9895f;
+    font-size: 23px;
+}
+.Text_mini:hover{
+    color: #e9895f;
+    font-size: 23px;
+}
+.map{
+    color: rgb(0, 0, 0);;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+    padding-right: 10px;
+    transition: all 0.6s;
+    text-decoration:none;
+    padding-left: 49%;
+}
+.map:hover{
+    color: #e9895f;
+    font-size: 23px;
+}
+.data:hover{
+    color: #e9895f;
+    font-size: 23px;
+}
+.data{
+    color: #000;;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+    transition: all 0.7s;
+    text-decoration:none;
+    padding-left: 50px;
+}
+.mini_logo{
+    width: 5%;
+    height: 60%;
+}
+.bottons{
+    display: flex;
+    flex-direction: row;
+}
+.style2{
+    font-size: 50px;
+    font-weight: 150;
+    width: 95%;
+    text-shadow: black 1px 3px 5px;
+}
+.style4{
+    width: 95%;
+    height: auto;
+}
+/* Nikita */
+.style_txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-family: 'Calibri';
+    font-weight: 100;
+    font-size: 25px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    bottom: 0;
+    background: #4af7be;
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 94,5%;
+    padding: 25px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+#copyright {
+    font-size: 16px;
+}
+
+.card_foto img {
+    height: 50px;
+    padding-left: 5px;
+    display: flex;
+}
+.card_foto {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card_foto div {
+    margin: 10px;
+}
+
+.lf_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+#h_menu {
+    background-color: #4af7be;
+}
+
+.level_0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    font-size: 22px;
+}
+
+.level_0 li {
+    margin: 0;
+    padding: 1%;
+}
+
+.level_0 li:hover {
+    background-color: rgb(92, 234, 234);
+}
+
+.level_0 li:checked {
+    background-color: cornflowerblue;
+}
+a {
+    text-decoration: none;
+    color: azure;
+    font-weight: 150;
+}
+

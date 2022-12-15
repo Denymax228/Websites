@@ -1,14 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    background: url("../img/pattern.png");
+    background-color:yellow;
 }
-
 .layout {
     display: block;
     margin: 0 10%;
     height: auto;
-    box-shadow: 0 5px 10px #ccc;
+    box-shadow: 0 10px 10px #ccc;
 }
 .banner{
     width: 100%;
